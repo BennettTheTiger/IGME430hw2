@@ -7,7 +7,7 @@ const imgHandler = require('./imageResponse.js');
 const port = process.env.port || process.env.NODE_PORT || 3000;// get a port to serve on
 
 const onRequest = (request, response) => {
-  console.log(request.url);
+  // console.log(request.url);
   switch (request.url) {
     case '/':
       htmlHandler.getIndex(request, response);
