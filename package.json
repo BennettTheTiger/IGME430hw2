@@ -2,7 +2,7 @@
   "name": "simple-http-assignment-start",
   "version": "1.0.0",
   "engines":{
-    "node":"9.1.0",
+    "node":">=9.1.0",
     "npm":"6.2.0"
   },
   "description": "IGME 430 hw 2",
