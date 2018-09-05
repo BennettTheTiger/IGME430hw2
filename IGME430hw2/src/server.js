@@ -38,4 +38,4 @@ const onRequest = (request, response) => {
 
 http.createServer(onRequest).listen(port);
 
-console.log(`server listening on port ${port}`);
+//console.log(`server listening on port ${port}`);
